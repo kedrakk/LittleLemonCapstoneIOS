@@ -11,8 +11,14 @@
 		834A20B02A982DCA0067E3F5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 834A20AF2A982DCA0067E3F5 /* ContentView.swift */; };
 		834A20B22A982DCB0067E3F5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 834A20B12A982DCB0067E3F5 /* Assets.xcassets */; };
 		834A20B52A982DCB0067E3F5 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 834A20B42A982DCB0067E3F5 /* Preview Assets.xcassets */; };
+		83B2643F2A9F3167000B11CA /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83B2643E2A9F3167000B11CA /* OnboardingView.swift */; };
 		83B805FA2A9B705E00925478 /* AppColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83B805F92A9B705E00925478 /* AppColors.swift */; };
 		83B805FC2A9B76D600925478 /* AppFontStyles.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83B805FB2A9B76D600925478 /* AppFontStyles.swift */; };
+		83DA09552A9F752900AAE55A /* AppTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83DA09542A9F752900AAE55A /* AppTextView.swift */; };
+		83DA09572A9F761100AAE55A /* AppButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83DA09562A9F761100AAE55A /* AppButtonView.swift */; };
+		83DA095A2A9F7B2500AAE55A /* LoginUserKeys.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83DA09592A9F7B2500AAE55A /* LoginUserKeys.swift */; };
+		83DA095C2A9F7CC500AAE55A /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83DA095B2A9F7CC500AAE55A /* HomeView.swift */; };
+		83DA095E2A9F7D3500AAE55A /* MenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83DA095D2A9F7D3500AAE55A /* MenuView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,8 +27,14 @@
 		834A20AF2A982DCA0067E3F5 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		834A20B12A982DCB0067E3F5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		834A20B42A982DCB0067E3F5 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		83B2643E2A9F3167000B11CA /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
 		83B805F92A9B705E00925478 /* AppColors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppColors.swift; sourceTree = "<group>"; };
 		83B805FB2A9B76D600925478 /* AppFontStyles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppFontStyles.swift; sourceTree = "<group>"; };
+		83DA09542A9F752900AAE55A /* AppTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppTextView.swift; sourceTree = "<group>"; };
+		83DA09562A9F761100AAE55A /* AppButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppButtonView.swift; sourceTree = "<group>"; };
+		83DA09592A9F7B2500AAE55A /* LoginUserKeys.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginUserKeys.swift; sourceTree = "<group>"; };
+		83DA095B2A9F7CC500AAE55A /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		83DA095D2A9F7D3500AAE55A /* MenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +70,8 @@
 				83B805F82A9B704500925478 /* Utils */,
 				834A20AD2A982DCA0067E3F5 /* LittleLemonCapstoneIOSApp.swift */,
 				834A20AF2A982DCA0067E3F5 /* ContentView.swift */,
+				83DA09582A9F7B1100AAE55A /* Data */,
+				83B2643D2A9F313A000B11CA /* Screens */,
 				834A20B12A982DCB0067E3F5 /* Assets.xcassets */,
 				834A20B32A982DCB0067E3F5 /* Preview Content */,
 			);
@@ -72,6 +86,16 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		83B2643D2A9F313A000B11CA /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				83DA09532A9F74FF00AAE55A /* SubViews */,
+				83B2643E2A9F3167000B11CA /* OnboardingView.swift */,
+				83DA095B2A9F7CC500AAE55A /* HomeView.swift */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
 		83B805F82A9B704500925478 /* Utils */ = {
 			isa = PBXGroup;
 			children = (
@@ -79,6 +103,24 @@
 				83B805FB2A9B76D600925478 /* AppFontStyles.swift */,
 			);
 			path = Utils;
+			sourceTree = "<group>";
+		};
+		83DA09532A9F74FF00AAE55A /* SubViews */ = {
+			isa = PBXGroup;
+			children = (
+				83DA09542A9F752900AAE55A /* AppTextView.swift */,
+				83DA09562A9F761100AAE55A /* AppButtonView.swift */,
+				83DA095D2A9F7D3500AAE55A /* MenuView.swift */,
+			);
+			path = SubViews;
+			sourceTree = "<group>";
+		};
+		83DA09582A9F7B1100AAE55A /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				83DA09592A9F7B2500AAE55A /* LoginUserKeys.swift */,
+			);
+			path = Data;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -151,9 +193,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				83DA095C2A9F7CC500AAE55A /* HomeView.swift in Sources */,
 				83B805FA2A9B705E00925478 /* AppColors.swift in Sources */,
+				83DA09572A9F761100AAE55A /* AppButtonView.swift in Sources */,
+				83DA095A2A9F7B2500AAE55A /* LoginUserKeys.swift in Sources */,
+				83DA09552A9F752900AAE55A /* AppTextView.swift in Sources */,
+				83DA095E2A9F7D3500AAE55A /* MenuView.swift in Sources */,
 				834A20B02A982DCA0067E3F5 /* ContentView.swift in Sources */,
 				83B805FC2A9B76D600925478 /* AppFontStyles.swift in Sources */,
+				83B2643F2A9F3167000B11CA /* OnboardingView.swift in Sources */,
 				834A20AE2A982DCA0067E3F5 /* LittleLemonCapstoneIOSApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
