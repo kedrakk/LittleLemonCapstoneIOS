@@ -13,7 +13,9 @@ struct OnboardingView: View {
     @State private var email: String = ""
     @State private var showAlert = false
     @State private var message: String = ""
-    @State private var isLoggedIn = false
+    @State private var isLoggedIn = (UserDefaults.standard.bool(forKey: kIsLoggedIn) )
+
+    
     var body: some View {
         NavigationStack {
             VStack{
@@ -28,15 +30,18 @@ struct OnboardingView: View {
                     }
                     else
                     {
-//                        UserDefaults.standard.set(
-//                            firstName, forKey: kFirstName
-//                        )
-//                        UserDefaults.standard.set(
-//                            lastName, forKey: kLastName
-//                        )
-//                        UserDefaults.standard.set(
-//                            email, forKey: kEmail
-//                        )
+                        UserDefaults.standard.set(
+                            firstName, forKey: kFirstName
+                        )
+                        UserDefaults.standard.set(
+                            lastName, forKey: kLastName
+                        )
+                        UserDefaults.standard.set(
+                            email, forKey: kEmail
+                        )
+                        UserDefaults.standard.set(
+                            true, forKey: kIsLoggedIn
+                        )
                         isLoggedIn=true
                     }
                 }

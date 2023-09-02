@@ -14,6 +14,7 @@
 		83B2643F2A9F3167000B11CA /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83B2643E2A9F3167000B11CA /* OnboardingView.swift */; };
 		83B805FA2A9B705E00925478 /* AppColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83B805F92A9B705E00925478 /* AppColors.swift */; };
 		83B805FC2A9B76D600925478 /* AppFontStyles.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83B805FB2A9B76D600925478 /* AppFontStyles.swift */; };
+		83D1CAA62AA2DC5A00793EC5 /* UserProfile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83D1CAA52AA2DC5A00793EC5 /* UserProfile.swift */; };
 		83DA09552A9F752900AAE55A /* AppTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83DA09542A9F752900AAE55A /* AppTextView.swift */; };
 		83DA09572A9F761100AAE55A /* AppButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83DA09562A9F761100AAE55A /* AppButtonView.swift */; };
 		83DA095A2A9F7B2500AAE55A /* LoginUserKeys.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83DA09592A9F7B2500AAE55A /* LoginUserKeys.swift */; };
@@ -30,6 +31,7 @@
 		83B2643E2A9F3167000B11CA /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
 		83B805F92A9B705E00925478 /* AppColors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppColors.swift; sourceTree = "<group>"; };
 		83B805FB2A9B76D600925478 /* AppFontStyles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppFontStyles.swift; sourceTree = "<group>"; };
+		83D1CAA52AA2DC5A00793EC5 /* UserProfile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserProfile.swift; sourceTree = "<group>"; };
 		83DA09542A9F752900AAE55A /* AppTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppTextView.swift; sourceTree = "<group>"; };
 		83DA09562A9F761100AAE55A /* AppButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppButtonView.swift; sourceTree = "<group>"; };
 		83DA09592A9F7B2500AAE55A /* LoginUserKeys.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginUserKeys.swift; sourceTree = "<group>"; };
@@ -91,6 +93,7 @@
 			children = (
 				83DA09532A9F74FF00AAE55A /* SubViews */,
 				83B2643E2A9F3167000B11CA /* OnboardingView.swift */,
+				83D1CAA52AA2DC5A00793EC5 /* UserProfile.swift */,
 				83DA095B2A9F7CC500AAE55A /* HomeView.swift */,
 			);
 			path = Screens;
@@ -198,6 +201,7 @@
 				83DA09572A9F761100AAE55A /* AppButtonView.swift in Sources */,
 				83DA095A2A9F7B2500AAE55A /* LoginUserKeys.swift in Sources */,
 				83DA09552A9F752900AAE55A /* AppTextView.swift in Sources */,
+				83D1CAA62AA2DC5A00793EC5 /* UserProfile.swift in Sources */,
 				83DA095E2A9F7D3500AAE55A /* MenuView.swift in Sources */,
 				834A20B02A982DCA0067E3F5 /* ContentView.swift in Sources */,
 				83B805FC2A9B76D600925478 /* AppFontStyles.swift in Sources */,
