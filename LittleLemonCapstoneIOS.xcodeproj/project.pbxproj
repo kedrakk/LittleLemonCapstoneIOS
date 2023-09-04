@@ -26,6 +26,7 @@
 		83DA095A2A9F7B2500AAE55A /* LoginUserKeys.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83DA09592A9F7B2500AAE55A /* LoginUserKeys.swift */; };
 		83DA095C2A9F7CC500AAE55A /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83DA095B2A9F7CC500AAE55A /* HomeView.swift */; };
 		83DA095E2A9F7D3500AAE55A /* MenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83DA095D2A9F7D3500AAE55A /* MenuView.swift */; };
+		83EC5E342AA61F5B004AB757 /* ItemDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83EC5E332AA61F5B004AB757 /* ItemDetailView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -49,6 +50,7 @@
 		83DA09592A9F7B2500AAE55A /* LoginUserKeys.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginUserKeys.swift; sourceTree = "<group>"; };
 		83DA095B2A9F7CC500AAE55A /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		83DA095D2A9F7D3500AAE55A /* MenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuView.swift; sourceTree = "<group>"; };
+		83EC5E332AA61F5B004AB757 /* ItemDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemDetailView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -162,6 +164,7 @@
 				83DA09542A9F752900AAE55A /* AppTextView.swift */,
 				83DA09562A9F761100AAE55A /* AppButtonView.swift */,
 				83DA095D2A9F7D3500AAE55A /* MenuView.swift */,
+				83EC5E332AA61F5B004AB757 /* ItemDetailView.swift */,
 			);
 			path = SubViews;
 			sourceTree = "<group>";
@@ -258,6 +261,7 @@
 				83D1CAB12AA397FF00793EC5 /* FetchedObjects.swift in Sources */,
 				834A20B02A982DCA0067E3F5 /* ContentView.swift in Sources */,
 				83D1CAB32AA3983F00793EC5 /* MenuList.swift in Sources */,
+				83EC5E342AA61F5B004AB757 /* ItemDetailView.swift in Sources */,
 				83B805FC2A9B76D600925478 /* AppFontStyles.swift in Sources */,
 				83D1CAAA2AA3960400793EC5 /* MenuItem.swift in Sources */,
 				83D1CAAC2AA3967600793EC5 /* NetworkData.swift in Sources */,

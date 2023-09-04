@@ -11,27 +11,43 @@ struct MenuView: View {
     var body: some View {
         FetchedObjects(){ (dishes:[Dish]) in
             List {
-                ForEach(dishes) { dishItem in
-                    HStack{
-                        Text("\(dishItem.title ?? "") with \(dishItem.price ?? "") $")
-                        Spacer()
-                        //https://talksport.com/wp-content/uploads/sites/5/2020/09/image-a4262f158a.jpg?w=620
-                        //"\(dishItem.image ?? "")"
-                        AsyncImage(
-                            url:URL(string: "\(String(describing: dishItem.image))"),
-                                        content: { image in
-                                            image.resizable()
-                                                 .aspectRatio(contentMode: .fit)
-                                                 .frame(maxWidth: 100, maxHeight: 100)
-                                        },
-                                        placeholder: {
-                                            //ProgressView()
-                                            Rectangle().frame(width:  100, height: 70).foregroundColor(.secondaryBlack)
-                                        }
-                                    )
+                ForEach(dishes, id: \.self) { dish in
+                    
+                    MenuItemView(dish: dish)
 
-                    }
                 }
+            }
+        }
+    }
+}
+
+struct MenuItemView:View{
+    let dish:Dish
+    
+    init(dish: Dish) {
+        self.dish = dish
+    }
+    
+    var body: some View{
+        NavigationLink(destination: ItemDetailView(dish: dish)) {
+            HStack{
+                Text("\(dish.title ?? "") with \(dish.price ?? "") $")
+                Spacer()
+                //https://talksport.com/wp-content/uploads/sites/5/2020/09/image-a4262f158a.jpg?w=620
+                //"\(dishItem.image ?? "")"
+                AsyncImage(
+                    url:URL(string: "\(dish.image ?? "")"),
+                                content: { image in
+                                    image.resizable()
+                                         .aspectRatio(contentMode: .fit)
+                                         .frame(maxWidth: 100, maxHeight: 100)
+                                },
+                                placeholder: {
+                                    //ProgressView()
+                                    Rectangle().frame(width:  100, height: 70).foregroundColor(.secondaryBlack)
+                                }
+                            )
+
             }
         }
     }
