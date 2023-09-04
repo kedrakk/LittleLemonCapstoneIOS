@@ -150,7 +150,7 @@
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
             uuid = "BD7028C6-F403-4105-BC39-CFD20AFBEAC5"
-            shouldBeEnabled = "Yes"
+            shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "LittleLemonCapstoneIOS/Network/NetworkData.swift"
@@ -258,7 +258,7 @@
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
             uuid = "69D4532D-0032-47CD-BC13-674134D72421"
-            shouldBeEnabled = "Yes"
+            shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "LittleLemonCapstoneIOS/Network/NetworkData.swift"
