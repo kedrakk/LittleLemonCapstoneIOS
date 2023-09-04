@@ -9,10 +9,17 @@ import SwiftUI
 
 struct MenuView: View {
     var body: some View {
-        VStack{
-            Text("title")
-            Text("Location")
-            Text("Description")
+        FetchedObjects(){ (dishes:[Dish]) in
+            List {
+                ForEach(dishes) { dishItem in
+                    HStack{
+                        Text("\(dishItem.title ?? "") with \(dishItem.price ?? "") $")
+                        AsyncImage(url: URL(string: "\(dishItem.image ?? "")"))
+                            .frame(width: 200, height: 200)
+
+                    }
+                }
+            }
         }
     }
 }

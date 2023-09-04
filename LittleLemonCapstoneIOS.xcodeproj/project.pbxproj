@@ -15,6 +15,12 @@
 		83B805FA2A9B705E00925478 /* AppColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83B805F92A9B705E00925478 /* AppColors.swift */; };
 		83B805FC2A9B76D600925478 /* AppFontStyles.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83B805FB2A9B76D600925478 /* AppFontStyles.swift */; };
 		83D1CAA62AA2DC5A00793EC5 /* UserProfile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83D1CAA52AA2DC5A00793EC5 /* UserProfile.swift */; };
+		83D1CAAA2AA3960400793EC5 /* MenuItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83D1CAA92AA3960400793EC5 /* MenuItem.swift */; };
+		83D1CAAC2AA3967600793EC5 /* NetworkData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83D1CAAB2AA3967600793EC5 /* NetworkData.swift */; };
+		83D1CAB02AA397FF00793EC5 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83D1CAAE2AA397FF00793EC5 /* Persistence.swift */; };
+		83D1CAB12AA397FF00793EC5 /* FetchedObjects.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83D1CAAF2AA397FF00793EC5 /* FetchedObjects.swift */; };
+		83D1CAB32AA3983F00793EC5 /* MenuList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83D1CAB22AA3983F00793EC5 /* MenuList.swift */; };
+		83D1CAB72AA3A69800793EC5 /* ExampleDatabase.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 83D1CAB52AA3A69700793EC5 /* ExampleDatabase.xcdatamodeld */; };
 		83DA09552A9F752900AAE55A /* AppTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83DA09542A9F752900AAE55A /* AppTextView.swift */; };
 		83DA09572A9F761100AAE55A /* AppButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83DA09562A9F761100AAE55A /* AppButtonView.swift */; };
 		83DA095A2A9F7B2500AAE55A /* LoginUserKeys.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83DA09592A9F7B2500AAE55A /* LoginUserKeys.swift */; };
@@ -32,6 +38,12 @@
 		83B805F92A9B705E00925478 /* AppColors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppColors.swift; sourceTree = "<group>"; };
 		83B805FB2A9B76D600925478 /* AppFontStyles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppFontStyles.swift; sourceTree = "<group>"; };
 		83D1CAA52AA2DC5A00793EC5 /* UserProfile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserProfile.swift; sourceTree = "<group>"; };
+		83D1CAA92AA3960400793EC5 /* MenuItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuItem.swift; sourceTree = "<group>"; };
+		83D1CAAB2AA3967600793EC5 /* NetworkData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkData.swift; sourceTree = "<group>"; };
+		83D1CAAE2AA397FF00793EC5 /* Persistence.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		83D1CAAF2AA397FF00793EC5 /* FetchedObjects.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FetchedObjects.swift; sourceTree = "<group>"; };
+		83D1CAB22AA3983F00793EC5 /* MenuList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuList.swift; sourceTree = "<group>"; };
+		83D1CAB62AA3A69800793EC5 /* ExampleDatabase.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ExampleDatabase.xcdatamodel; sourceTree = "<group>"; };
 		83DA09542A9F752900AAE55A /* AppTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppTextView.swift; sourceTree = "<group>"; };
 		83DA09562A9F761100AAE55A /* AppButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppButtonView.swift; sourceTree = "<group>"; };
 		83DA09592A9F7B2500AAE55A /* LoginUserKeys.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginUserKeys.swift; sourceTree = "<group>"; };
@@ -72,6 +84,9 @@
 				83B805F82A9B704500925478 /* Utils */,
 				834A20AD2A982DCA0067E3F5 /* LittleLemonCapstoneIOSApp.swift */,
 				834A20AF2A982DCA0067E3F5 /* ContentView.swift */,
+				83D1CAAD2AA397DB00793EC5 /* Const */,
+				83D1CAA82AA395F500793EC5 /* Model */,
+				83D1CAA72AA395D300793EC5 /* Network */,
 				83DA09582A9F7B1100AAE55A /* Data */,
 				83B2643D2A9F313A000B11CA /* Screens */,
 				834A20B12A982DCB0067E3F5 /* Assets.xcassets */,
@@ -108,6 +123,39 @@
 			path = Utils;
 			sourceTree = "<group>";
 		};
+		83D1CAA72AA395D300793EC5 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				83D1CAAB2AA3967600793EC5 /* NetworkData.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		83D1CAA82AA395F500793EC5 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				83D1CAA92AA3960400793EC5 /* MenuItem.swift */,
+				83D1CAB22AA3983F00793EC5 /* MenuList.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		83D1CAAD2AA397DB00793EC5 /* Const */ = {
+			isa = PBXGroup;
+			children = (
+				83DA09592A9F7B2500AAE55A /* LoginUserKeys.swift */,
+			);
+			path = Const;
+			sourceTree = "<group>";
+		};
+		83D1CAB42AA3A66C00793EC5 /* CoreDataPart */ = {
+			isa = PBXGroup;
+			children = (
+				83D1CAB52AA3A69700793EC5 /* ExampleDatabase.xcdatamodeld */,
+			);
+			path = CoreDataPart;
+			sourceTree = "<group>";
+		};
 		83DA09532A9F74FF00AAE55A /* SubViews */ = {
 			isa = PBXGroup;
 			children = (
@@ -121,7 +169,9 @@
 		83DA09582A9F7B1100AAE55A /* Data */ = {
 			isa = PBXGroup;
 			children = (
-				83DA09592A9F7B2500AAE55A /* LoginUserKeys.swift */,
+				83D1CAAF2AA397FF00793EC5 /* FetchedObjects.swift */,
+				83D1CAAE2AA397FF00793EC5 /* Persistence.swift */,
+				83D1CAB42AA3A66C00793EC5 /* CoreDataPart */,
 			);
 			path = Data;
 			sourceTree = "<group>";
@@ -196,15 +246,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				83D1CAB72AA3A69800793EC5 /* ExampleDatabase.xcdatamodeld in Sources */,
 				83DA095C2A9F7CC500AAE55A /* HomeView.swift in Sources */,
 				83B805FA2A9B705E00925478 /* AppColors.swift in Sources */,
 				83DA09572A9F761100AAE55A /* AppButtonView.swift in Sources */,
+				83D1CAB02AA397FF00793EC5 /* Persistence.swift in Sources */,
 				83DA095A2A9F7B2500AAE55A /* LoginUserKeys.swift in Sources */,
 				83DA09552A9F752900AAE55A /* AppTextView.swift in Sources */,
 				83D1CAA62AA2DC5A00793EC5 /* UserProfile.swift in Sources */,
 				83DA095E2A9F7D3500AAE55A /* MenuView.swift in Sources */,
+				83D1CAB12AA397FF00793EC5 /* FetchedObjects.swift in Sources */,
 				834A20B02A982DCA0067E3F5 /* ContentView.swift in Sources */,
+				83D1CAB32AA3983F00793EC5 /* MenuList.swift in Sources */,
 				83B805FC2A9B76D600925478 /* AppFontStyles.swift in Sources */,
+				83D1CAAA2AA3960400793EC5 /* MenuItem.swift in Sources */,
+				83D1CAAC2AA3967600793EC5 /* NetworkData.swift in Sources */,
 				83B2643F2A9F3167000B11CA /* OnboardingView.swift in Sources */,
 				834A20AE2A982DCA0067E3F5 /* LittleLemonCapstoneIOSApp.swift in Sources */,
 			);
@@ -405,6 +461,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		83D1CAB52AA3A69700793EC5 /* ExampleDatabase.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				83D1CAB62AA3A69800793EC5 /* ExampleDatabase.xcdatamodel */,
+			);
+			currentVersion = 83D1CAB62AA3A69800793EC5 /* ExampleDatabase.xcdatamodel */;
+			path = ExampleDatabase.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 834A20A22A982DCA0067E3F5 /* Project object */;
 }

@@ -8,6 +8,7 @@
 import SwiftUI
 
 struct OnboardingView: View {
+    @Environment(\.managedObjectContext) private var viewContext
     @State private var firstName: String = ""
     @State private var lastName: String = ""
     @State private var email: String = ""
@@ -52,7 +53,7 @@ struct OnboardingView: View {
             }
             .navigationTitle("Little Lemon")
             .navigationDestination(isPresented: $isLoggedIn) {
-                HomeView()
+                HomeView().environment(\.managedObjectContext, self.viewContext)
             }
         }
         

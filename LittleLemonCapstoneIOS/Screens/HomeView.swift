@@ -8,6 +8,9 @@
 import SwiftUI
 
 struct HomeView: View {
+    
+    @Environment(\.managedObjectContext) private var viewContext
+    
     var body: some View {
         TabView {
             MenuView()
@@ -18,7 +21,11 @@ struct HomeView: View {
                 .tabItem {
                     Label("Profile",systemImage: "square.and.pencil")
                 }
-        }.navigationBarBackButtonHidden(true)
+        }
+        .navigationBarBackButtonHidden(true)
+            .onAppear(){
+                Menu().getMenuData(viewContext)
+            }
     }
 }
 
