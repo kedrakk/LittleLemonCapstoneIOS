@@ -55,14 +55,12 @@ struct OnboardingView: View {
             .navigationDestination(isPresented: $isLoggedIn) {
                 HomeView().environment(\.managedObjectContext, self.viewContext)
             }
+            .onAppear(){
+                Menu().getMenuData(viewContext)
+            }
         }
         
         
     }
 }
 
-struct OnboardingView_Previews: PreviewProvider {
-    static var previews: some View {
-        OnboardingView()
-    }
-}

@@ -27,7 +27,7 @@ import SwiftUI
 struct Menu {
     
     func getMenuData(_ context:NSManagedObjectContext){
-        PersistenceController().clear()
+        PersistenceController.shared.clear()
         let url = URL(string: kURL)!
         let request = URLRequest(url: url)
         let downloadTask = URLSession.shared.dataTask(with: request){data, response, error in
