@@ -351,47 +351,47 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "92F71433-5F2E-4CDC-8AA9-840F74B7EBB6"
-            shouldBeEnabled = "No"
+            uuid = "494DFBBA-53F1-441A-83E9-27D618A2CDB1"
+            shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "LittleLemonCapstoneIOS/Screens/SubViews/MenuView.swift"
+            filePath = "LittleLemonCapstoneIOS/Network/NetworkData.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "12"
-            endingLineNumber = "12"
-            landmarkName = "body"
-            landmarkType = "24">
+            startingLineNumber = "30"
+            endingLineNumber = "30"
+            landmarkName = "getMenuData(_:)"
+            landmarkType = "7">
             <Locations>
                <Location
-                  uuid = "92F71433-5F2E-4CDC-8AA9-840F74B7EBB6 - 1d80359396469bd4"
+                  uuid = "494DFBBA-53F1-441A-83E9-27D618A2CDB1 - 99c21b0106ec86a1"
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
-                  symbolName = "LittleLemonCapstoneIOS.MenuView.body.getter : some"
+                  symbolName = "LittleLemonCapstoneIOS.Menu.getMenuData(__C.NSManagedObjectContext) -&gt; ()"
                   moduleName = "LittleLemonCapstoneIOS"
                   usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/kedk/Development/projects/ios-prj/LittleLemonCapstoneIOS/LittleLemonCapstoneIOS/Screens/SubViews/MenuView.swift"
+                  urlString = "file:///Users/kedk/Development/projects/ios-prj/LittleLemonCapstoneIOS/LittleLemonCapstoneIOS/Network/NetworkData.swift"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "12"
-                  endingLineNumber = "12"
-                  offsetFromSymbolStart = "108">
+                  startingLineNumber = "30"
+                  endingLineNumber = "30"
+                  offsetFromSymbolStart = "308">
                </Location>
                <Location
-                  uuid = "92F71433-5F2E-4CDC-8AA9-840F74B7EBB6 - 2d9c181fd27be7ec"
+                  uuid = "494DFBBA-53F1-441A-83E9-27D618A2CDB1 - 99c21b0106ec86a1"
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
-                  symbolName = "closure #1 (Swift.Array&lt;LittleLemonCapstoneIOS.Dish&gt;) -&gt; SwiftUI.List&lt;Swift.Never, SwiftUI.ForEach&lt;Swift.Array&lt;LittleLemonCapstoneIOS.Dish&gt;, Swift.ObjectIdentifier, SwiftUI.HStack&lt;SwiftUI.TupleView&lt;(SwiftUI.Text, &lt;&lt;opaque return type of SwiftUI.View.frame(width: Swift.Optional&lt;CoreGraphics.CGFloat&gt;, height: Swift.Optional&lt;CoreGraphics.CGFloat&gt;, alignment: SwiftUI.Alignment) -&gt; some&gt;&gt;.0)&gt;&gt;&gt;&gt; in LittleLemonCapstoneIOS.MenuView.body.getter : some"
+                  symbolName = "LittleLemonCapstoneIOS.Menu.getMenuData(__C.NSManagedObjectContext) -&gt; ()"
                   moduleName = "LittleLemonCapstoneIOS"
                   usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/kedk/Development/projects/ios-prj/LittleLemonCapstoneIOS/LittleLemonCapstoneIOS/Screens/SubViews/MenuView.swift"
+                  urlString = "file:///Users/kedk/Development/projects/ios-prj/LittleLemonCapstoneIOS/LittleLemonCapstoneIOS/Network/NetworkData.swift"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "13"
-                  endingLineNumber = "13"
-                  offsetFromSymbolStart = "132">
+                  startingLineNumber = "30"
+                  endingLineNumber = "30"
+                  offsetFromSymbolStart = "316">
                </Location>
             </Locations>
          </BreakpointContent>
@@ -399,47 +399,47 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "ECEB7F36-E88F-4DA4-B3A6-5C70934D77AA"
-            shouldBeEnabled = "No"
+            uuid = "23B2743E-F20E-4752-BF60-3B9B86D6A270"
+            shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "LittleLemonCapstoneIOS/Screens/SubViews/MenuView.swift"
+            filePath = "LittleLemonCapstoneIOS/Network/NetworkData.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "13"
-            endingLineNumber = "13"
-            landmarkName = "body"
-            landmarkType = "24">
+            startingLineNumber = "31"
+            endingLineNumber = "31"
+            landmarkName = "getMenuData(_:)"
+            landmarkType = "7">
             <Locations>
                <Location
-                  uuid = "ECEB7F36-E88F-4DA4-B3A6-5C70934D77AA - 2d9c181fd27be7ec"
+                  uuid = "23B2743E-F20E-4752-BF60-3B9B86D6A270 - 99c21b0106ec86c0"
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
-                  symbolName = "closure #1 (Swift.Array&lt;LittleLemonCapstoneIOS.Dish&gt;) -&gt; SwiftUI.List&lt;Swift.Never, SwiftUI.ForEach&lt;Swift.Array&lt;LittleLemonCapstoneIOS.Dish&gt;, Swift.ObjectIdentifier, SwiftUI.HStack&lt;SwiftUI.TupleView&lt;(SwiftUI.Text, &lt;&lt;opaque return type of SwiftUI.View.frame(width: Swift.Optional&lt;CoreGraphics.CGFloat&gt;, height: Swift.Optional&lt;CoreGraphics.CGFloat&gt;, alignment: SwiftUI.Alignment) -&gt; some&gt;&gt;.0)&gt;&gt;&gt;&gt; in LittleLemonCapstoneIOS.MenuView.body.getter : some"
+                  symbolName = "LittleLemonCapstoneIOS.Menu.getMenuData(__C.NSManagedObjectContext) -&gt; ()"
                   moduleName = "LittleLemonCapstoneIOS"
                   usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/kedk/Development/projects/ios-prj/LittleLemonCapstoneIOS/LittleLemonCapstoneIOS/Screens/SubViews/MenuView.swift"
+                  urlString = "file:///Users/kedk/Development/projects/ios-prj/LittleLemonCapstoneIOS/LittleLemonCapstoneIOS/Network/NetworkData.swift"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "13"
-                  endingLineNumber = "13"
-                  offsetFromSymbolStart = "132">
+                  startingLineNumber = "31"
+                  endingLineNumber = "31"
+                  offsetFromSymbolStart = "340">
                </Location>
                <Location
-                  uuid = "ECEB7F36-E88F-4DA4-B3A6-5C70934D77AA - a54a90fbd89ffba4"
+                  uuid = "23B2743E-F20E-4752-BF60-3B9B86D6A270 - 99c21b0106ec86c0"
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
-                  symbolName = "closure #1 () -&gt; SwiftUI.ForEach&lt;Swift.Array&lt;LittleLemonCapstoneIOS.Dish&gt;, Swift.ObjectIdentifier, SwiftUI.HStack&lt;SwiftUI.TupleView&lt;(SwiftUI.Text, &lt;&lt;opaque return type of SwiftUI.View.frame(width: Swift.Optional&lt;CoreGraphics.CGFloat&gt;, height: Swift.Optional&lt;CoreGraphics.CGFloat&gt;, alignment: SwiftUI.Alignment) -&gt; some&gt;&gt;.0)&gt;&gt;&gt; in closure #1 (Swift.Array&lt;LittleLemonCapstoneIOS.Dish&gt;) -&gt; SwiftUI.List&lt;Swift.Never, SwiftUI.ForEach&lt;Swift.Array&lt;LittleLemonCapstoneIOS.Dish&gt;, Swift.ObjectIdentifier, SwiftUI.HStack&lt;SwiftUI.TupleView&lt;(SwiftUI.Text, &lt;&lt;opaque return type of SwiftUI.View.frame(width: Swift.Optional&lt;CoreGraphics.CGFloat&gt;, height: Swift.Optional&lt;CoreGraphics.CGFloat&gt;, alignment: SwiftUI.Alignment) -&gt; some&gt;&gt;.0)&gt;&gt;&gt;&gt; in LittleLemonCapstoneIOS.MenuView.body.getter : some"
+                  symbolName = "LittleLemonCapstoneIOS.Menu.getMenuData(__C.NSManagedObjectContext) -&gt; ()"
                   moduleName = "LittleLemonCapstoneIOS"
                   usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/kedk/Development/projects/ios-prj/LittleLemonCapstoneIOS/LittleLemonCapstoneIOS/Screens/SubViews/MenuView.swift"
+                  urlString = "file:///Users/kedk/Development/projects/ios-prj/LittleLemonCapstoneIOS/LittleLemonCapstoneIOS/Network/NetworkData.swift"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "14"
-                  endingLineNumber = "14"
-                  offsetFromSymbolStart = "132">
+                  startingLineNumber = "31"
+                  endingLineNumber = "31"
+                  offsetFromSymbolStart = "328">
                </Location>
             </Locations>
          </BreakpointContent>
@@ -447,49 +447,161 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "8B331769-ED52-452E-ABE8-C91876BBB7A1"
-            shouldBeEnabled = "No"
+            uuid = "961B1A6E-251F-400E-8D1E-79AC9552E376"
+            shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "LittleLemonCapstoneIOS/Screens/SubViews/MenuView.swift"
+            filePath = "LittleLemonCapstoneIOS/Data/Persistence.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "14"
-            endingLineNumber = "14"
-            landmarkName = "body"
-            landmarkType = "24">
+            startingLineNumber = "18"
+            endingLineNumber = "18"
+            landmarkName = "clear()"
+            landmarkType = "7">
             <Locations>
                <Location
-                  uuid = "8B331769-ED52-452E-ABE8-C91876BBB7A1 - a54a90fbd89ffba4"
+                  uuid = "961B1A6E-251F-400E-8D1E-79AC9552E376 - a06e40f9c289f31d"
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
-                  symbolName = "closure #1 () -&gt; SwiftUI.ForEach&lt;Swift.Array&lt;LittleLemonCapstoneIOS.Dish&gt;, Swift.ObjectIdentifier, SwiftUI.HStack&lt;SwiftUI.TupleView&lt;(SwiftUI.Text, &lt;&lt;opaque return type of SwiftUI.View.frame(width: Swift.Optional&lt;CoreGraphics.CGFloat&gt;, height: Swift.Optional&lt;CoreGraphics.CGFloat&gt;, alignment: SwiftUI.Alignment) -&gt; some&gt;&gt;.0)&gt;&gt;&gt; in closure #1 (Swift.Array&lt;LittleLemonCapstoneIOS.Dish&gt;) -&gt; SwiftUI.List&lt;Swift.Never, SwiftUI.ForEach&lt;Swift.Array&lt;LittleLemonCapstoneIOS.Dish&gt;, Swift.ObjectIdentifier, SwiftUI.HStack&lt;SwiftUI.TupleView&lt;(SwiftUI.Text, &lt;&lt;opaque return type of SwiftUI.View.frame(width: Swift.Optional&lt;CoreGraphics.CGFloat&gt;, height: Swift.Optional&lt;CoreGraphics.CGFloat&gt;, alignment: SwiftUI.Alignment) -&gt; some&gt;&gt;.0)&gt;&gt;&gt;&gt; in LittleLemonCapstoneIOS.MenuView.body.getter : some"
+                  symbolName = "LittleLemonCapstoneIOS.PersistenceController.clear() -&gt; ()"
                   moduleName = "LittleLemonCapstoneIOS"
                   usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/kedk/Development/projects/ios-prj/LittleLemonCapstoneIOS/LittleLemonCapstoneIOS/Screens/SubViews/MenuView.swift"
+                  urlString = "file:///Users/kedk/Development/projects/ios-prj/LittleLemonCapstoneIOS/LittleLemonCapstoneIOS/Data/Persistence.swift"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "14"
-                  endingLineNumber = "14"
+                  startingLineNumber = "18"
+                  endingLineNumber = "18"
+                  offsetFromSymbolStart = "48">
+               </Location>
+               <Location
+                  uuid = "961B1A6E-251F-400E-8D1E-79AC9552E376 - a06e40f9c289f31d"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "LittleLemonCapstoneIOS.PersistenceController.clear() -&gt; ()"
+                  moduleName = "LittleLemonCapstoneIOS"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/kedk/Development/projects/ios-prj/LittleLemonCapstoneIOS/LittleLemonCapstoneIOS/Data/Persistence.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "18"
+                  endingLineNumber = "18"
+                  offsetFromSymbolStart = "68">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "42D35302-B0B8-477B-9123-DF72FA57AC14"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "LittleLemonCapstoneIOS/Data/Persistence.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "19"
+            endingLineNumber = "19"
+            landmarkName = "clear()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "42D35302-B0B8-477B-9123-DF72FA57AC14 - a06e40f9c289f33c"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "LittleLemonCapstoneIOS.PersistenceController.clear() -&gt; ()"
+                  moduleName = "LittleLemonCapstoneIOS"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/kedk/Development/projects/ios-prj/LittleLemonCapstoneIOS/LittleLemonCapstoneIOS/Data/Persistence.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "19"
+                  endingLineNumber = "19"
                   offsetFromSymbolStart = "132">
                </Location>
                <Location
-                  uuid = "8B331769-ED52-452E-ABE8-C91876BBB7A1 - 68b37356ec1bf862"
+                  uuid = "42D35302-B0B8-477B-9123-DF72FA57AC14 - a06e40f9c289f33c"
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
-                  symbolName = "closure #1 (LittleLemonCapstoneIOS.Dish) -&gt; SwiftUI.HStack&lt;SwiftUI.TupleView&lt;(SwiftUI.Text, &lt;&lt;opaque return type of SwiftUI.View.frame(width: Swift.Optional&lt;CoreGraphics.CGFloat&gt;, height: Swift.Optional&lt;CoreGraphics.CGFloat&gt;, alignment: SwiftUI.Alignment) -&gt; some&gt;&gt;.0)&gt;&gt; in closure #1 () -&gt; SwiftUI.ForEach&lt;Swift.Array&lt;LittleLemonCapstoneIOS.Dish&gt;, Swift.ObjectIdentifier, SwiftUI.HStack&lt;SwiftUI.TupleView&lt;(SwiftUI.Text, &lt;&lt;opaque return type of SwiftUI.View.frame(width: Swift.Optional&lt;CoreGraphics.CGFloat&gt;, height: Swift.Optional&lt;CoreGraphics.CGFloat&gt;, alignment: SwiftUI.Alignment) -&gt; some&gt;&gt;.0)&gt;&gt;&gt; in closure #1 (Swift.Array&lt;LittleLemonCapstoneIOS.Dish&gt;) -&gt; SwiftUI.List&lt;Swift.Never, SwiftUI.ForEach&lt;Swift.Array&lt;LittleLemonCapstoneIOS.Dish&gt;, Swift.ObjectIdentifier, SwiftUI.HStack&lt;SwiftUI.TupleView&lt;(SwiftUI.Text, &lt;&lt;opaque return type of SwiftUI.View.frame(width: Swift.Optional&lt;CoreGraphics.CGFloat&gt;, height: Swift.Optional&lt;CoreGraphics.CGFloat&gt;, alignment: SwiftUI.Alignment) -&gt; some&gt;&gt;.0)&gt;&gt;&gt;&gt; in LittleLemonCapstoneIOS.MenuView.body.getter : some"
+                  symbolName = "LittleLemonCapstoneIOS.PersistenceController.clear() -&gt; ()"
                   moduleName = "LittleLemonCapstoneIOS"
                   usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/kedk/Development/projects/ios-prj/LittleLemonCapstoneIOS/LittleLemonCapstoneIOS/Screens/SubViews/MenuView.swift"
+                  urlString = "file:///Users/kedk/Development/projects/ios-prj/LittleLemonCapstoneIOS/LittleLemonCapstoneIOS/Data/Persistence.swift"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "15"
-                  endingLineNumber = "15"
-                  offsetFromSymbolStart = "132">
+                  startingLineNumber = "19"
+                  endingLineNumber = "19"
+                  offsetFromSymbolStart = "152">
                </Location>
             </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "A195AE35-9BF5-4CF2-ABBF-D603C456B03D"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "LittleLemonCapstoneIOS/Data/Persistence.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "20"
+            endingLineNumber = "20"
+            landmarkName = "clear()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "A195AE35-9BF5-4CF2-ABBF-D603C456B03D - a06e40f9c289f363"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "LittleLemonCapstoneIOS.PersistenceController.clear() -&gt; ()"
+                  moduleName = "LittleLemonCapstoneIOS"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/kedk/Development/projects/ios-prj/LittleLemonCapstoneIOS/LittleLemonCapstoneIOS/Data/Persistence.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "20"
+                  endingLineNumber = "20"
+                  offsetFromSymbolStart = "172">
+               </Location>
+               <Location
+                  uuid = "A195AE35-9BF5-4CF2-ABBF-D603C456B03D - a06e40f9c289f282"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "LittleLemonCapstoneIOS.PersistenceController.clear() -&gt; ()"
+                  moduleName = "LittleLemonCapstoneIOS"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/kedk/Development/projects/ios-prj/LittleLemonCapstoneIOS/LittleLemonCapstoneIOS/Data/Persistence.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "21"
+                  endingLineNumber = "21"
+                  offsetFromSymbolStart = "192">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "02BF0562-9A54-470D-A677-CF60C65CA826"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "LittleLemonCapstoneIOS/Data/Persistence.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "23"
+            endingLineNumber = "23"
+            landmarkName = "clear()"
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>
