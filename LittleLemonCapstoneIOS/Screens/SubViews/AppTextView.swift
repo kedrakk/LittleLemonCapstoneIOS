@@ -10,17 +10,22 @@ import SwiftUI
 struct AppTextView: View {
     let label:String
     let value:Binding<String>
-    init(label: String, value: Binding<String>) {
+    var iconName:String
+    init(label: String, value: Binding<String>,iconName:String = "") {
         self.label = label
         self.value = value
+        self.iconName = iconName
     }
     var body: some View {
-        TextField(label, text: value)
+        HStack{
+            if(!iconName.isEmpty){
+                Image(systemName: iconName)
+            }
+            TextField(label, text: value)
+        }
             .padding()
-            .overlay(
-                RoundedRectangle(cornerRadius: 6)
-                    .stroke(Color.secondary.opacity(0.5))
-            )
+            .background(Color.secondaryWhite)
+            .cornerRadius(6)
             .padding(EdgeInsets(top: 3, leading: 10, bottom: 3, trailing: 10))
     }
 }
