@@ -534,8 +534,8 @@
             filePath = "LittleLemonCapstoneIOS/Screens/SubViews/MenuView.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "18"
-            endingLineNumber = "18"
+            startingLineNumber = "17"
+            endingLineNumber = "17"
             landmarkName = "body"
             landmarkType = "24">
             <Locations>
@@ -569,7 +569,53 @@
                   endingLineNumber = "18"
                   offsetFromSymbolStart = "132">
                </Location>
+               <Location
+                  uuid = "B2A24BBC-5D3D-46BE-AA34-CE1A7F85F5B3 - 9ef242b911c11029"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Array&lt;LittleLemonCapstoneIOS.Dish&gt;) -&gt; SwiftUI.List&lt;Swift.Never, SwiftUI.ForEach&lt;Swift.Array&lt;LittleLemonCapstoneIOS.Dish&gt;, LittleLemonCapstoneIOS.Dish, LittleLemonCapstoneIOS.MenuItemView&gt;&gt; in closure #1 () -&gt; SwiftUI.TupleView&lt;(LittleLemonCapstoneIOS.HeroSection, LittleLemonCapstoneIOS.FetchedObjects&lt;LittleLemonCapstoneIOS.Dish, SwiftUI.List&lt;Swift.Never, SwiftUI.ForEach&lt;Swift.Array&lt;LittleLemonCapstoneIOS.Dish&gt;, LittleLemonCapstoneIOS.Dish, LittleLemonCapstoneIOS.MenuItemView&gt;&gt;&gt;)&gt; in LittleLemonCapstoneIOS.MenuView.body.getter : some"
+                  moduleName = "LittleLemonCapstoneIOS"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/kedk/Development/projects/ios-prj/LittleLemonCapstoneIOS/LittleLemonCapstoneIOS/Screens/SubViews/MenuView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "18"
+                  endingLineNumber = "18"
+                  offsetFromSymbolStart = "132">
+               </Location>
+               <Location
+                  uuid = "B2A24BBC-5D3D-46BE-AA34-CE1A7F85F5B3 - e919bf564525a106"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 () -&gt; SwiftUI.ForEach&lt;Swift.Array&lt;LittleLemonCapstoneIOS.Dish&gt;, LittleLemonCapstoneIOS.Dish, LittleLemonCapstoneIOS.MenuItemView&gt; in closure #1 (Swift.Array&lt;LittleLemonCapstoneIOS.Dish&gt;) -&gt; SwiftUI.List&lt;Swift.Never, SwiftUI.ForEach&lt;Swift.Array&lt;LittleLemonCapstoneIOS.Dish&gt;, LittleLemonCapstoneIOS.Dish, LittleLemonCapstoneIOS.MenuItemView&gt;&gt; in closure #1 () -&gt; SwiftUI.TupleView&lt;(LittleLemonCapstoneIOS.HeroSection, LittleLemonCapstoneIOS.FetchedObjects&lt;LittleLemonCapstoneIOS.Dish, SwiftUI.List&lt;Swift.Never, SwiftUI.ForEach&lt;Swift.Array&lt;LittleLemonCapstoneIOS.Dish&gt;, LittleLemonCapstoneIOS.Dish, LittleLemonCapstoneIOS.MenuItemView&gt;&gt;&gt;)&gt; in LittleLemonCapstoneIOS.MenuView.body.getter : some"
+                  moduleName = "LittleLemonCapstoneIOS"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/kedk/Development/projects/ios-prj/LittleLemonCapstoneIOS/LittleLemonCapstoneIOS/Screens/SubViews/MenuView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "19"
+                  endingLineNumber = "19"
+                  offsetFromSymbolStart = "132">
+               </Location>
             </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "86A227D0-6A65-4296-9E79-4021193282A5"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "LittleLemonCapstoneIOS/Screens/OnboardingView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "56"
+            endingLineNumber = "56"
+            landmarkName = "body"
+            landmarkType = "24">
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>

@@ -28,6 +28,7 @@
 		83DA095C2A9F7CC500AAE55A /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83DA095B2A9F7CC500AAE55A /* HomeView.swift */; };
 		83DA095E2A9F7D3500AAE55A /* MenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83DA095D2A9F7D3500AAE55A /* MenuView.swift */; };
 		83EC5E342AA61F5B004AB757 /* ItemDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83EC5E332AA61F5B004AB757 /* ItemDetailView.swift */; };
+		83F1A9742AAC9D460001124D /* AppHeroView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83F1A9732AAC9D460001124D /* AppHeroView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -53,6 +54,7 @@
 		83DA095B2A9F7CC500AAE55A /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		83DA095D2A9F7D3500AAE55A /* MenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuView.swift; sourceTree = "<group>"; };
 		83EC5E332AA61F5B004AB757 /* ItemDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemDetailView.swift; sourceTree = "<group>"; };
+		83F1A9732AAC9D460001124D /* AppHeroView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppHeroView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -165,6 +167,7 @@
 			isa = PBXGroup;
 			children = (
 				83DA09542A9F752900AAE55A /* AppTextView.swift */,
+				83F1A9732AAC9D460001124D /* AppHeroView.swift */,
 				83DA09562A9F761100AAE55A /* AppButtonView.swift */,
 				83DA095D2A9F7D3500AAE55A /* MenuView.swift */,
 				83EC5E332AA61F5B004AB757 /* ItemDetailView.swift */,
@@ -254,6 +257,7 @@
 			files = (
 				83D1CAB72AA3A69800793EC5 /* ExampleDatabase.xcdatamodeld in Sources */,
 				83DA095C2A9F7CC500AAE55A /* HomeView.swift in Sources */,
+				83F1A9742AAC9D460001124D /* AppHeroView.swift in Sources */,
 				83B805FA2A9B705E00925478 /* AppColors.swift in Sources */,
 				83DA09572A9F761100AAE55A /* AppButtonView.swift in Sources */,
 				83D1CAB02AA397FF00793EC5 /* Persistence.swift in Sources */,

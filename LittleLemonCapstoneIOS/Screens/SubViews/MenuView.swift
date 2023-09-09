@@ -12,7 +12,6 @@ struct MenuView: View {
     
     var body: some View {
         VStack{
-//            AppTextView(label: "Search menu", value: $searchText)
             HeroSection(value: $searchText)
             FetchedObjects(predicate: buildPredicate(), sortDescriptors: buildSortDescriptors()){ (dishes:[Dish]) in
                 List {
@@ -51,21 +50,7 @@ struct HeroSection:View {
     }
     
     var body: some View{
-        VStack{
-            VStack(alignment: .leading){
-                Text(heroTitle).font(.marKaziSubTitle).foregroundStyle(Color.primaryYellow)
-                Text(heroAddress).font(.karlaSectionTitle).foregroundColor(Color.secondaryWhite)
-                HStack{
-                    Text(heroDesc)
-                        .font(.karlaParagraph).foregroundColor(Color.secondaryWhite)
-                    Image("Hero image").resizable().frame(width: 130,height: 150)
-                        .cornerRadius(10)
-                }
-            }
-            AppTextView(label: "Search menu", value: value,iconName: "magnifyingglass")
-        }
-        .padding(EdgeInsets(top: 10, leading: 10, bottom: 15, trailing: 10))
-        .background(Color.primaryBlue)
+        AppHeroView(bottomView: AppTextView(label: "Search menu", value: value,iconName: "magnifyingglass"))
         
     }
 }

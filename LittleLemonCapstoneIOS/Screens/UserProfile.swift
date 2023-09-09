@@ -23,17 +23,12 @@ struct UserProfile: View {
             AppTextView(label: "Last Name", value: $lastName).disabled(true)
             AppTextView(label: "Email", value: $email).disabled(true)
             AppButtonView(title: "Logout") {
-                if firstName.isEmpty || lastName.isEmpty || email.isEmpty
-                {
-                    showAlert=true
-                }
-                else
-                {
-                    UserDefaults.standard.set(
-                        false, forKey: kIsLoggedIn
-                    )
-                    self.presentation.wrappedValue.dismiss()
-                }
+                UserDefaults.standard.set(
+                    false, forKey: kIsLoggedIn
+                )
+                showAlert = true
+                self.presentation.wrappedValue.dismiss()
+                
             }
             .alert(isPresented: $showAlert) {
                 Alert(title: Text("Logout Success"))
