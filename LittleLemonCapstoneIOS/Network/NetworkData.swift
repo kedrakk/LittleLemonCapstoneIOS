@@ -40,6 +40,8 @@ struct Menu {
                         myDish.image = dishItem.image
                         myDish.price = dishItem.price
                         myDish.title = dishItem.title
+                        myDish.desc = dishItem.description
+                        myDish.category = dishItem.category
                     }
                     try? context.save()
                 }

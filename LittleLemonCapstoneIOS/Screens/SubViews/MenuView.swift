@@ -21,6 +21,7 @@ struct MenuView: View {
 
                     }
                 }
+                .listStyle(PlainListStyle())
             }
         }
     }
@@ -63,27 +64,71 @@ struct MenuItemView:View{
     }
     
     var body: some View{
-        NavigationLink(destination: ItemDetailView(dish: dish)) {
+        ZStack{
             HStack{
-                Text("\(dish.title ?? "") with \(dish.price ?? "") $")
+                VStack(alignment: .leading){
+                    Text("\(dish.title ?? "")")
+                        .font(.karlaLeadText)
+                        .padding(EdgeInsets(top: 2, leading: 0, bottom: 2, trailing: 0))
+                    Text("\(dish.desc ?? "")")
+                        .lineLimit(2)
+                        .fontWeight(.light)
+                        .font(.karlaParagraph)
+                        .foregroundColor(.primaryBlue)
+                    Text("$ \(dish.price ?? "")")
+                        .fontWeight(.heavy)
+                        .font(.karlaLeadText)
+                        .foregroundColor(.primaryBlue)
+                        .padding(EdgeInsets(top: 2, leading: 0, bottom: 2, trailing: 0))
+                }
                 Spacer()
-                //https://talksport.com/wp-content/uploads/sites/5/2020/09/image-a4262f158a.jpg?w=620
-                //"\(dishItem.image ?? "")"
                 AsyncImage(
                     url:URL(string: "\(dish.image ?? "")"),
-                                content: { image in
-                                    image.resizable()
-                                         .aspectRatio(contentMode: .fit)
-                                         .frame(maxWidth: 100, maxHeight: 100)
-                                },
-                                placeholder: {
-                                    //ProgressView()
-                                    Rectangle().frame(width:  100, height: 70).foregroundColor(.secondaryBlack)
-                                }
-                            )
-
+                    content: { image in
+                        image.resizable()
+                            .aspectRatio(contentMode: .fit)
+                            .frame(maxWidth: 100, maxHeight: 100)
+                    },
+                    placeholder: {
+                        Rectangle().frame(width:  100, height: 70).foregroundColor(.secondaryBlack)
+                    }
+                )
             }
+            NavigationLink(destination: ItemDetailView(dish: dish)) {
+                
+            }.buttonStyle(PlainButtonStyle())
         }
+//        NavigationLink(destination: ItemDetailView(dish: dish)) {
+//            HStack{
+//                VStack(alignment: .leading){
+//                    Text("\(dish.title ?? "")")
+//                        .font(.karlaLeadText)
+//                        .padding(EdgeInsets(top: 2, leading: 0, bottom: 2, trailing: 0))
+//                    Text("\(dish.desc ?? "")")
+//                        .lineLimit(2)
+//                        .fontWeight(.light)
+//                        .font(.karlaParagraph)
+//                        .foregroundColor(.primaryBlue)
+//                    Text("$ \(dish.price ?? "")")
+//                        .fontWeight(.heavy)
+//                        .font(.karlaLeadText)
+//                        .foregroundColor(.primaryBlue)
+//                        .padding(EdgeInsets(top: 2, leading: 0, bottom: 2, trailing: 0))
+//                }
+//                Spacer()
+//                AsyncImage(
+//                    url:URL(string: "\(dish.image ?? "")"),
+//                    content: { image in
+//                        image.resizable()
+//                            .aspectRatio(contentMode: .fit)
+//                            .frame(maxWidth: 100, maxHeight: 100)
+//                    },
+//                    placeholder: {
+//                        Rectangle().frame(width:  100, height: 70).foregroundColor(.secondaryBlack)
+//                    }
+//                )
+//            }
+//        }.buttonStyle(PlainButtonStyle())
     }
     
 }
