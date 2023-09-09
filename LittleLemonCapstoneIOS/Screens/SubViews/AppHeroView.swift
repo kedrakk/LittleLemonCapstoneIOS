@@ -21,7 +21,9 @@ struct AppHeroView: View{
                 Text(heroAddress).font(.karlaSectionTitle).foregroundColor(Color.secondaryWhite)
                 HStack{
                     Text(heroDesc)
-                        .font(.karlaParagraph).foregroundColor(Color.secondaryWhite)
+                        .font(.karlaParagraph)
+                        .foregroundColor(Color.secondaryWhite)
+                        .fixedSize(horizontal: false, vertical: true)
                     Image("Hero image").resizable().frame(width: 130,height: 150)
                         .cornerRadius(10)
                 }

@@ -29,6 +29,9 @@
 		83DA095E2A9F7D3500AAE55A /* MenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83DA095D2A9F7D3500AAE55A /* MenuView.swift */; };
 		83EC5E342AA61F5B004AB757 /* ItemDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83EC5E332AA61F5B004AB757 /* ItemDetailView.swift */; };
 		83F1A9742AAC9D460001124D /* AppHeroView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83F1A9732AAC9D460001124D /* AppHeroView.swift */; };
+		83F1A9762AACC4CB0001124D /* MenuItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83F1A9752AACC4CB0001124D /* MenuItemView.swift */; };
+		83F1A9782AACC5EC0001124D /* MenuCategoryListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83F1A9772AACC5EC0001124D /* MenuCategoryListView.swift */; };
+		83F1A97E2AACD1300001124D /* MenuCategory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83F1A97D2AACD1300001124D /* MenuCategory.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -55,6 +58,12 @@
 		83DA095D2A9F7D3500AAE55A /* MenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuView.swift; sourceTree = "<group>"; };
 		83EC5E332AA61F5B004AB757 /* ItemDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemDetailView.swift; sourceTree = "<group>"; };
 		83F1A9732AAC9D460001124D /* AppHeroView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppHeroView.swift; sourceTree = "<group>"; };
+		83F1A9752AACC4CB0001124D /* MenuItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuItemView.swift; sourceTree = "<group>"; };
+		83F1A9772AACC5EC0001124D /* MenuCategoryListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuCategoryListView.swift; sourceTree = "<group>"; };
+		83F1A97A2AACCC9A0001124D /* MarkaziText-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "MarkaziText-Medium.ttf"; sourceTree = "<group>"; };
+		83F1A97B2AACCCAC0001124D /* Karla-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Karla-Medium.ttf"; sourceTree = "<group>"; };
+		83F1A97C2AACCF970001124D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		83F1A97D2AACD1300001124D /* MenuCategory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuCategory.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,8 +96,10 @@
 		834A20AC2A982DCA0067E3F5 /* LittleLemonCapstoneIOS */ = {
 			isa = PBXGroup;
 			children = (
+				83F1A97C2AACCF970001124D /* Info.plist */,
 				83B805F82A9B704500925478 /* Utils */,
 				834A20AD2A982DCA0067E3F5 /* LittleLemonCapstoneIOSApp.swift */,
+				83F1A9792AACCC800001124D /* Fonts */,
 				834A20AF2A982DCA0067E3F5 /* ContentView.swift */,
 				83D1CAAD2AA397DB00793EC5 /* Const */,
 				83D1CAA82AA395F500793EC5 /* Model */,
@@ -142,6 +153,7 @@
 			children = (
 				83D1CAA92AA3960400793EC5 /* MenuItem.swift */,
 				83D1CAB22AA3983F00793EC5 /* MenuList.swift */,
+				83F1A97D2AACD1300001124D /* MenuCategory.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -170,6 +182,8 @@
 				83F1A9732AAC9D460001124D /* AppHeroView.swift */,
 				83DA09562A9F761100AAE55A /* AppButtonView.swift */,
 				83DA095D2A9F7D3500AAE55A /* MenuView.swift */,
+				83F1A9752AACC4CB0001124D /* MenuItemView.swift */,
+				83F1A9772AACC5EC0001124D /* MenuCategoryListView.swift */,
 				83EC5E332AA61F5B004AB757 /* ItemDetailView.swift */,
 			);
 			path = SubViews;
@@ -183,6 +197,15 @@
 				83D1CAB42AA3A66C00793EC5 /* CoreDataPart */,
 			);
 			path = Data;
+			sourceTree = "<group>";
+		};
+		83F1A9792AACCC800001124D /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				83F1A97B2AACCCAC0001124D /* Karla-Medium.ttf */,
+				83F1A97A2AACCC9A0001124D /* MarkaziText-Medium.ttf */,
+			);
+			path = Fonts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -259,8 +282,11 @@
 				83DA095C2A9F7CC500AAE55A /* HomeView.swift in Sources */,
 				83F1A9742AAC9D460001124D /* AppHeroView.swift in Sources */,
 				83B805FA2A9B705E00925478 /* AppColors.swift in Sources */,
+				83F1A9762AACC4CB0001124D /* MenuItemView.swift in Sources */,
 				83DA09572A9F761100AAE55A /* AppButtonView.swift in Sources */,
 				83D1CAB02AA397FF00793EC5 /* Persistence.swift in Sources */,
+				83F1A97E2AACD1300001124D /* MenuCategory.swift in Sources */,
+				83F1A9782AACC5EC0001124D /* MenuCategoryListView.swift in Sources */,
 				83DA095A2A9F7B2500AAE55A /* LoginUserKeys.swift in Sources */,
 				83DA09552A9F752900AAE55A /* AppTextView.swift in Sources */,
 				83D1CAA62AA2DC5A00793EC5 /* UserProfile.swift in Sources */,
@@ -405,6 +431,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"LittleLemonCapstoneIOS/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = LittleLemonCapstoneIOS/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -433,6 +460,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"LittleLemonCapstoneIOS/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = LittleLemonCapstoneIOS/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
