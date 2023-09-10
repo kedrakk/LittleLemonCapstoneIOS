@@ -55,7 +55,7 @@
 		83DA09562A9F761100AAE55A /* AppButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppButtonView.swift; sourceTree = "<group>"; };
 		83DA09592A9F7B2500AAE55A /* LoginUserKeys.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginUserKeys.swift; sourceTree = "<group>"; };
 		83DA095B2A9F7CC500AAE55A /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
-		83DA095D2A9F7D3500AAE55A /* MenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuView.swift; sourceTree = "<group>"; };
+		83DA095D2A9F7D3500AAE55A /* MenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuView.swift; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		83EC5E332AA61F5B004AB757 /* ItemDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemDetailView.swift; sourceTree = "<group>"; };
 		83F1A9732AAC9D460001124D /* AppHeroView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppHeroView.swift; sourceTree = "<group>"; };
 		83F1A9752AACC4CB0001124D /* MenuItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuItemView.swift; sourceTree = "<group>"; };
