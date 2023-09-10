@@ -13,13 +13,13 @@ struct UserProfile: View {
     @State private var firstName: String = (UserDefaults.standard.string(forKey: kFirstName) ?? "")
     @State private var lastName: String = (UserDefaults.standard.string(forKey: kLastName) ?? "")
     @State private var email: String = (UserDefaults.standard.string(forKey: kEmail) ?? "")
-    @State private var phoneNumber: String = "(217) 555-0113"
+    @State private var phoneNumber: String = (UserDefaults.standard.string(forKey: kPhoneNumber) ?? "")
     @State private var showAlert = false
     
-    @State var orderStatusChecked = true
-    @State var passwordChangesChecked = true
-    @State var specialOffersChecked = true
-    @State var newLettersChecked = true
+    @State var orderStatusChecked = (UserDefaults.standard.bool(forKey: kIsOrderStatusChecked) )
+    @State var passwordChangesChecked = (UserDefaults.standard.bool(forKey: kIsPasswordChangesChecked) )
+    @State var specialOffersChecked = (UserDefaults.standard.bool(forKey: kIsSpecialOffersChecked) )
+    @State var newLettersChecked = (UserDefaults.standard.bool(forKey: kIsNewLettersChecked) )
     
     let backAction:()->Void
     
@@ -60,10 +60,10 @@ struct UserProfile: View {
                     .foregroundColor(.primaryBlue)
                 }.padding(.horizontal,10)
                 Section{
-                    AppTextView(label: "First Name", value: $firstName).disabled(true)
-                    AppTextView(label: "Last Name", value: $lastName).disabled(true)
+                    AppTextView(label: "First Name", value: $firstName)
+                    AppTextView(label: "Last Name", value: $lastName)
                     AppTextView(label: "Email", value: $email).disabled(true)
-                    AppTextView(label: "Phone Number", value: $phoneNumber).disabled(true)
+                    AppTextView(label: "Phone Number", value: $phoneNumber)
                     Text("Email notifications")
                         .font(.karlaLeadText).bold()
                         .padding(.horizontal,10).padding(.top,15)
@@ -104,6 +104,33 @@ struct UserProfile: View {
                         .border(Color.primaryBlue)
                         .foregroundColor(.primaryBlue)
                     Button {
+                        UserDefaults.standard.set(
+                            firstName, forKey: kFirstName
+                        )
+                        UserDefaults.standard.set(
+                            lastName, forKey: kLastName
+                        )
+                        UserDefaults.standard.set(
+                            email, forKey: kEmail
+                        )
+                        UserDefaults.standard.set(
+                            phoneNumber, forKey: kPhoneNumber
+                        )
+                        UserDefaults.standard.set(
+                            true, forKey: kIsLoggedIn
+                        )
+                        UserDefaults.standard.set(
+                            orderStatusChecked, forKey: kIsOrderStatusChecked
+                        )
+                        UserDefaults.standard.set(
+                            passwordChangesChecked, forKey: kIsPasswordChangesChecked
+                        )
+                        UserDefaults.standard.set(
+                            specialOffersChecked, forKey: kIsSpecialOffersChecked
+                        )
+                        UserDefaults.standard.set(
+                            newLettersChecked, forKey: kIsNewLettersChecked
+                        )
                         backAction()
                     } label: {
                         Text("Save Changes")

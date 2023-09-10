@@ -45,6 +45,18 @@ struct OnboardingView: View {
                             UserDefaults.standard.set(
                                 true, forKey: kIsLoggedIn
                             )
+                            UserDefaults.standard.set(
+                                true, forKey: kIsOrderStatusChecked
+                            )
+                            UserDefaults.standard.set(
+                                true, forKey: kIsPasswordChangesChecked
+                            )
+                            UserDefaults.standard.set(
+                                true, forKey: kIsSpecialOffersChecked
+                            )
+                            UserDefaults.standard.set(
+                                true, forKey: kIsNewLettersChecked
+                            )
                             isLoggedIn=true
                         }
                     }
