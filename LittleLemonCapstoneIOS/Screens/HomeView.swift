@@ -18,7 +18,9 @@ struct HomeView: View {
                 MenuView()
             }
             else{
-                UserProfile()
+                UserProfile(backAction:{
+                    isMenuScreen = true
+                })
             }
         }.navigationBarTitleDisplayMode(.inline)
             .padding(EdgeInsets(top: 10, leading: 0, bottom: 15, trailing: 0))

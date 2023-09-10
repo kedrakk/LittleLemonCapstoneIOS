@@ -12,6 +12,7 @@
 		834A20B02A982DCA0067E3F5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 834A20AF2A982DCA0067E3F5 /* ContentView.swift */; };
 		834A20B22A982DCB0067E3F5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 834A20B12A982DCB0067E3F5 /* Assets.xcassets */; };
 		834A20B52A982DCB0067E3F5 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 834A20B42A982DCB0067E3F5 /* Preview Assets.xcassets */; };
+		836C2FC82AADB6BE0027C78C /* AppCheckBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = 836C2FC72AADB6BE0027C78C /* AppCheckBox.swift */; };
 		83B2643F2A9F3167000B11CA /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83B2643E2A9F3167000B11CA /* OnboardingView.swift */; };
 		83B805FA2A9B705E00925478 /* AppColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83B805F92A9B705E00925478 /* AppColors.swift */; };
 		83B805FC2A9B76D600925478 /* AppFontStyles.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83B805FB2A9B76D600925478 /* AppFontStyles.swift */; };
@@ -41,6 +42,7 @@
 		834A20AF2A982DCA0067E3F5 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		834A20B12A982DCB0067E3F5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		834A20B42A982DCB0067E3F5 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		836C2FC72AADB6BE0027C78C /* AppCheckBox.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppCheckBox.swift; sourceTree = "<group>"; };
 		83B2643E2A9F3167000B11CA /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
 		83B805F92A9B705E00925478 /* AppColors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppColors.swift; sourceTree = "<group>"; };
 		83B805FB2A9B76D600925478 /* AppFontStyles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppFontStyles.swift; sourceTree = "<group>"; };
@@ -180,6 +182,7 @@
 			children = (
 				83DA09542A9F752900AAE55A /* AppTextView.swift */,
 				83F1A9732AAC9D460001124D /* AppHeroView.swift */,
+				836C2FC72AADB6BE0027C78C /* AppCheckBox.swift */,
 				83DA09562A9F761100AAE55A /* AppButtonView.swift */,
 				83DA095D2A9F7D3500AAE55A /* MenuView.swift */,
 				83F1A9752AACC4CB0001124D /* MenuItemView.swift */,
@@ -290,6 +293,7 @@
 				83DA095A2A9F7B2500AAE55A /* LoginUserKeys.swift in Sources */,
 				83DA09552A9F752900AAE55A /* AppTextView.swift in Sources */,
 				83D1CAA62AA2DC5A00793EC5 /* UserProfile.swift in Sources */,
+				836C2FC82AADB6BE0027C78C /* AppCheckBox.swift in Sources */,
 				83DA095E2A9F7D3500AAE55A /* MenuView.swift in Sources */,
 				83D1CAB12AA397FF00793EC5 /* FetchedObjects.swift in Sources */,
 				834A20B02A982DCA0067E3F5 /* ContentView.swift in Sources */,
