@@ -13,13 +13,20 @@ struct MenuView: View {
     
     var body: some View {
         VStack{
-            AppHeroView(bottomView: AppTextView(label: "Search menu", value: $searchText,iconName: "magnifyingglass"))
+            AppHeroView(
+                bottomView: AppTextView(label: "Search menu", value: $searchText,iconName: "magnifyingglass",onTapAction: {
+                    if(!searchText.isEmpty && !searchCategory.isEmpty){
+                        searchCategory = ""
+                    }
+                })
+            )
             VStack(alignment: .leading){
                 Text("ORDER FOR DELIVERY!").bold()
                 ScrollView(.horizontal) {
                     HStack{
                         ForEach(allMenuCategory,id: \.self) { category in
                             Button {
+                                searchText = ""
                                 if(searchCategory == category){
                                     searchCategory = ""
                                 }
@@ -67,7 +74,7 @@ struct MenuView: View {
         }
         else
         {
-            return NSPredicate(format: "TRUEPREDICATE")
+          return NSPredicate(format: "TRUEPREDICATE")
         }
     }
 }

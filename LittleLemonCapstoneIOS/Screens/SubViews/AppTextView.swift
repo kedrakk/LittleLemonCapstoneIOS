@@ -9,12 +9,14 @@ import SwiftUI
 
 struct AppTextView: View {
     let label:String
-    let value:Binding<String>
+    var value:Binding<String>
     var iconName:String
-    init(label: String, value: Binding<String>,iconName:String = "") {
+    var onTapAction:() -> Void
+    init(label: String, value: Binding<String>,iconName:String = "",onTapAction:@escaping () -> Void = {}) {
         self.label = label
         self.value = value
         self.iconName = iconName
+        self.onTapAction = onTapAction
     }
     var body: some View {
         HStack{
@@ -22,6 +24,9 @@ struct AppTextView: View {
                 Image(systemName: iconName)
             }
             TextField(label, text: value)
+                .onChange(of: value.wrappedValue) { newValue in
+                onTapAction()
+            }
         }
             .padding()
             .background(Color.secondaryWhite)
@@ -29,4 +34,3 @@ struct AppTextView: View {
             .padding(EdgeInsets(top: 3, leading: 10, bottom: 3, trailing: 10))
     }
 }
-
